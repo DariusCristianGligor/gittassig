@@ -1,0 +1,123 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  color: cadetblue;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.coninaterMain {
+  background-color: cadetblue;
+}
+.people {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 200px;
+  height: 200px;
+  background: rgb(104, 199, 243);
+  box-shadow: 0 0 30px rgb(85, 84, 84);
+  border: 2px solid rgb(85, 84, 84);
+}
+.vehicle {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 250px;
+  height: 150px;
+  background: rgb(104, 199, 243);
+  box-shadow: 0 0 30px rgb(85, 84, 84);
+  border: 2px solid rgb(85, 84, 84);
+}
+.starship {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 300px;
+  height: 180px;
+  background: rgb(104, 199, 243);
+  box-shadow: 0 0 30px rgb(85, 84, 84);
+  border: 2px solid rgb(85, 84, 84);
+}
+.peopleAnotherMode {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 200px;
+  height: 200px;
+  background: #0275d8;
+  box-shadow: 0 0 30px rgb(85, 84, 84);
+  border: 2px solid rgb(85, 84, 84);
+}
+.vehicleAnotherMode {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 250px;
+  height: 150px;
+  background: #0275d8;
+  box-shadow: 0 0 30px rgb(85, 84, 84);
+  border: 2px solid rgb(85, 84, 84);
+}
+.starshipAnotherMode {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 300px;
+  height: 180px;
+  background: #0275d8;
+  box-shadow: 0 0 30px rgb(85, 84, 84);
+  border: 2px solid rgb(85, 84, 84);
+}
+.back {
+  margin-top: 19px;
+}
+.crsp {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.Button {
+  margin-left: 35px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  width: 120px;
+  height: 30px;
+  background-color: rgb(218, 189, 108);
+}
+.Button:hover,
+.Button:focus {
+  color: rgb(66, 64, 64);
+  background-color: darkgreen;
+}
+.buttonChangeMode {
+  float: left;
+  background-color: #0275d8;
+}
+.buttonChangeMode:hover,
+.buttonChangeMode:focus {
+  background-color: #5bc0de;
+  color: red;
+}
+.buttonChangeModeAnother {
+  float: left;
+  background-color: #5bc0de;
+}
+
+.buttonChangeModeAnother:hover,
+.buttonChangeModeAnother:focus {
+  background-color: #0275d8;
+  color: red;
+}
